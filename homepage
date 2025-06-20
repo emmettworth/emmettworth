@@ -1,0 +1,68 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>J. Emmett Worth</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+		body, html {
+		    margin: 0;
+		    padding: 0;
+		    height: 100%;
+            width: 100%;
+            font-family: 'Roboto+Mono', sans-serif;
+            background-color: #ff0606;
+            color: #000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: auto;
+            text-align: center;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 2rem;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .menu-button {
+            background-color: #ff0606;
+            color: #000;
+            border: none;
+            padding: 0.75rem 1.25rem;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .menu-button:hover {
+            background-color: #ff0606;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>emmett worth</h1>
+
+    <div class="footer">
+        <button class="menu-button" onclick="location.href='about.html'">About</button>
+        <button class="menu-button" onclick="location.href='projects.html'">Projects</button>
+        <button class="menu-button" onclick="location.href='resume.html'">Resume</button>
+        <button class="menu-button" onclick="location.href='contact.html'">Contact</button>
+    </div>
+
+</body>
+</html>
+
+	</style>
